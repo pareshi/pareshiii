@@ -6,7 +6,6 @@ $easing: cubic-bezier(0.19, 1, 0.22, 1);
     width: 100%;
     top: $top;
     overflow: hidden;
-
     opacity: 0;
     transform: translate($x, 0);
     animation: #{$animate} 2s $easing forwards;
@@ -22,6 +21,7 @@ $easing: cubic-bezier(0.19, 1, 0.22, 1);
         position: absolute;
         text-align: center;
         color: $secondary-col;
+        font-family: $text;
 }
 
 @mixin divider($top_d) {
@@ -59,7 +59,6 @@ $easing: cubic-bezier(0.19, 1, 0.22, 1);
     overflow: hidden;
     display: block;
     background-color: $primary-col;
-    
     animation: goaway 1s $easing 2s forwards;
 
     &-container{

@@ -12,17 +12,13 @@
           box-sizing: border-box;
 }
 
-:root {
-  font-size: 16px;
-}
-
 body {
   margin: 0;
   --aspect-ratio: 1/1.5;
   --imgwidthmax: 500px;
   --size-title: 10rem;
   color: #0D0D0D;
-  background-color: var(--color-bg);
+  background-color: white;
   font-size: 1.5rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -563,6 +559,7 @@ body.hasHover .block_link:hover {
     position: absolute;
     text-align: center;
     color: #262626;
+    font-family: "Montserrat";
   }
 }
 
@@ -577,6 +574,7 @@ body.hasHover .block_link:hover {
     position: absolute;
     text-align: center;
     color: #262626;
+    font-family: "Montserrat";
   }
 }
 
@@ -591,6 +589,7 @@ body.hasHover .block_link:hover {
     position: absolute;
     text-align: center;
     color: #262626;
+    font-family: "Montserrat";
   }
 }
 
@@ -618,6 +617,7 @@ body.hasHover .block_link:hover {
     position: absolute;
     text-align: center;
     color: #262626;
+    font-family: "Montserrat";
   }
 }
 
@@ -632,6 +632,7 @@ body.hasHover .block_link:hover {
     position: absolute;
     text-align: center;
     color: #262626;
+    font-family: "Montserrat";
   }
 }
 
@@ -646,6 +647,7 @@ body.hasHover .block_link:hover {
     position: absolute;
     text-align: center;
     color: #262626;
+    font-family: "Montserrat";
   }
 }
 
