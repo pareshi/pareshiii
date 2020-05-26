@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Outline';
+    src: url('../css/fonts/dustin_italic_outline-webfont.woff') format('woff'),
+         url('../css/fonts/dustin_italic_outline-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$headings: "Source Sans Pro";
+$text: "Montserrat";
+$other: "Space Mono";
+$outline: "Outline";
+
+$primary-col: #0D0D0D;
+$secondary-col: hsl(0, 0%, 15%);
+$text-col:white;
+
+$tablet: 768px;
+$desktop: 1366px;
