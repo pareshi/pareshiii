@@ -1,0 +1,37 @@
+.custom-cursor {
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  -webkit-transition: -webkit-transform 350ms ease;
+  transition: -webkit-transform 350ms ease;
+  transition: transform 350ms ease;
+  transition: transform 350ms ease, -webkit-transform 350ms ease;
+  -webkit-transform: translate(-50%, -50%) scale(0.3);
+          transform: translate(-50%, -50%) scale(0.3);
+  z-index: 1000;
+}
+
+.custom-cursor--link {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+}
+
+.block_title, .block_link {
+  color: currentColor;
+}
+
+.block_link {
+  text-decoration: none;
+  -webkit-transition: letter-spacing 200ms ease;
+  transition: letter-spacing 200ms ease;
+}
+
+body.hasHover .block_link:hover {
+  letter-spacing: .2rem;
+}
+/*# sourceMappingURL=main.css.map */
