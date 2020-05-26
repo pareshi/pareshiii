@@ -27,6 +27,6 @@
     transition: letter-spacing 200ms ease;
 }
 
-body.hasHover .block_link:hover {
+.block_link:hover{
     letter-spacing: .2rem;
 }

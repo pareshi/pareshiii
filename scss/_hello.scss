@@ -52,6 +52,26 @@ $easing: cubic-bezier(0.19, 1, 0.22, 1);
     }
 }
 
+// #main-div-sec{
+//     display: none;
+//     opacity: 0;
+//     visibility: hidden;
+//     animation: overflow-set-visible 2s ease 2s forwards; 
+
+//     @keyframes overflow-set-visible{
+//         0%{
+//             display: none;
+//             opacity: 0;
+//             visibility: hidden;
+//         }
+//         100%{
+//             display: block;
+//             opacity: 1;
+//             visibility: visible;
+//         }
+//     }
+// }
+
 .intro{
     height: 100%;
     width: 100%;
