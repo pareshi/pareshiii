@@ -44,4 +44,4 @@ var supportsPassive = false;
 
     setTimeout("disableScroll()",0);
     setTimeout("enableScroll()", 3000);
-    setTimeout("showIt()", 2000);
+    setTimeout("showIt()", 0);

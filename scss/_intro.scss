@@ -1,6 +1,15 @@
+mark{
+    background-color: $primary-col;
+    color: white;
+}
+
 .bio{
+    grid-area: header;
+    grid-column: 1/3;
     color: $primary-col;
     font-family: $headings;
-    font-size: 7vw;
-    text-align: center;
+    margin-top: 50px;
+    font-size: 6vw;
+    text-align: left;
+    line-height: 8vw;
 }

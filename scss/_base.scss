@@ -84,39 +84,21 @@ a:focus {
 .page {
 	display: grid;
 	padding: 5vw;
-	max-width: 1400px;
+	// max-width: 1400px;
 	margin: 0 auto;
 	grid-template-columns: 100%;
 	grid-template-areas: 'header' 'meta' 'grid';
 	will-change: transform;
 	background-color: white;
-
-	// display: none;
-    // opacity: 0;
-    // visibility: hidden;
-    // animation: overflow-set-visible 2s ease 2s forwards; 
-
-    // @keyframes overflow-set-visible{
-    //     0%{
-    //         // display: none;
-    //         opacity: 0;
-    //         visibility: hidden;
-    //     }
-    //     100%{
-    //         // display: grid;
-    //         opacity: 1;
-    //         visibility: visible;
-    //     }
-    // }
 }
 
-.page__title {
-	grid-area: header;
-	margin: 0 0 1rem;
-	font-size: inherit;
-	font-weight: 400;
-	background-color: white;
-}
+// .page__title {
+// 	grid-area: header;
+// 	margin: 0 0 1rem;
+// 	font-size: inherit;
+// 	font-weight: 400;
+// 	background-color: white;
+// }
 
 /* .meta {
 	grid-area: meta;
