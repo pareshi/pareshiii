@@ -709,4 +709,85 @@ mark {
   margin-top: 8px;
   width: 100%;
 }
+
+.about-me {
+  color: #0D0D0D;
+  display: -ms-grid;
+  display: grid;
+  margin: 50px;
+  text-align: justify;
+}
+
+@media (max-width: 767px) {
+  .about-me {
+        grid-template-areas: "amimg" "amdesc" "amcont";
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1365px) {
+  .about-me {
+        grid-template-areas: "amimg amdesc" "amimg amdesc" "amimg amcont";
+  }
+}
+
+@media (min-width: 1366px) {
+  .about-me {
+        grid-template-areas: "amimg amdesc" "amimg amdesc" "amimg amcont";
+  }
+}
+
+.about-me-pic {
+  grid-area: amimg;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+@media (max-width: 767px) {
+  .about-me-pic {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+.about-me-pic img {
+  width: 300px;
+}
+
+.about-me-desc {
+  grid-area: amdesc;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .about-me-desc {
+    margin-left: 0;
+  }
+}
+
+.about-me-cont {
+  grid-area: amcont;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .about-me-cont {
+    margin-left: 0;
+  }
+}
 /*# sourceMappingURL=main.css.map */

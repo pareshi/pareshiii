@@ -1,0 +1,49 @@
+@mixin responsive-about-me {
+    @include mobile{
+        grid-template-areas: "amimg" "amdesc" "amcont";
+    }
+
+    @include tablet{
+        grid-template-areas: "amimg amdesc" "amimg amdesc" "amimg amcont";
+    }
+
+    @include desktop{
+        grid-template-areas: "amimg amdesc" "amimg amdesc" "amimg amcont";
+    }
+}
+
+@mixin responsive-about-me-text {
+    justify-self: start;
+    align-self: start;
+    margin-left: 20px;
+    @include mobile{margin-left: 0;}
+}
+
+.about-me{
+    color: $primary-col;
+    display: grid;
+    @include responsive-about-me();
+    margin: 50px;
+    text-align: justify;
+    &-pic{
+        grid-area: amimg;
+        justify-self: start;
+        align-self: start;
+        @include mobile{
+            justify-self: center;
+            align-self: center;  
+        }
+        img{
+            width: 300px;
+        }
+    }
+    &-desc{
+        grid-area: amdesc;
+        @include responsive-about-me-text();
+    }
+
+    &-cont{
+        grid-area: amcont;
+        @include responsive-about-me-text();
+    }
+}
