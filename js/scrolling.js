@@ -42,6 +42,6 @@ var supportsPassive = false;
         document.getElementById("div-main-sec").style.opacity = "1";
     }
 
-    setTimeout("disableScroll()",0);
-    setTimeout("enableScroll()", 3000);
+    // setTimeout("disableScroll()",0);
+    // setTimeout("enableScroll()", 3000);
     setTimeout("showIt()", 0);
